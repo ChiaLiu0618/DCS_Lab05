@@ -42,6 +42,13 @@ The objective is to implement two nonlinear functions using Synopsys DesignWare 
   2. Read and understand pin and parameter descriptions.
   3. Copy template, fill in parameters, rename instance if needed.
 
+## Simulation and Testing
+The project includes multiple verification steps:
+- **RTL Simulation**: The RTL simulation is performed using Synopsys VCS.
+- **Synthesis**: The design is synthesized using Synopsys Design Compiler with TSMC 40nm technology.
+- **Gate-Level Simulation**: The synthesized design is simulated using Synopsys VCS.
+- **Waveform Debugging**: Synopsys Verdi is used to inspect signals and debug the design.
+
 ## Useful References
 - [YouTube – Neural Network Activation Functions](https://www.youtube.com/watch?v=e_J9lXnU_vs)
 - [ScienceDirect – Activation Function Study](https://www.sciencedirect.com/science/article/pii/S0925231219308884)
